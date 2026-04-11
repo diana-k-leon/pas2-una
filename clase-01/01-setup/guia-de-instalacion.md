@@ -162,27 +162,3 @@ Una vez instalada la extensión Code Runner, podés ejecutar directamente desde 
  
 ---
  
-## Paso 6 — Segundo programa: variables y operaciones
- 
-```cpp
-#include <iostream>
- 
-int main() {
-    int num1 = 5;
-    int num2 = 10;
- 
-    int suma = num1 + num2;
- 
-    std::cout << "La suma es: " << suma << std::endl;
-    return 0;
-}
-```
- 
-Compilá y ejecutá. Resultado:
-```
-La suma es: 15
-```
- 
-> **¿Por qué este ejemplo?**  
-> Porque en audio vas a hacer exactamente esto con miles de números a la vez — sumar, multiplicar, escalar valores. Este es el bloque más básico de todo lo que viene.
- 
